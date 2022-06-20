@@ -4,61 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Denys</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <style>
-        .rounded-img {
-            width: 60%;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-            padding: 0.6em;
-            margin-bottom: 1em;
-        }
-    </style>
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand p-0" href="/">
-            <img src="DS.png" alt="Logo" width="60">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="picture.html">Picture</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <div class="container text-center my-5">
-        <div class="row">
-            <div class="col-lg-3 col-md-8 mx-auto">
-                <img class="rounded-img" src="Denys.jpg" alt="Denys">
-                <h1 class="fw-light">Hello!</h1>
-                <p class="lead text-muted">I love techno. If you also love this style, let's unite for joint parties or raves.</p>
-                <a href="https://www.techno-livesets.com/" target="_blank" class="btn btn-primary">
-                    Trip
-                </a>
-                <a href="https://en.wikipedia.org/wiki/Rave" target="_blank" class="btn btn-warning">
-                    Rave
+    <header class="header">
+        <div class="container header__flex">
+            <div>
+                <a href="#">
+                    <img src="./Img/Logo Color.png" alt="logo">
                 </a>
             </div>
+            <nav class="nav">
+                <ol>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Features
+                        </a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Blog
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+            <div>
+                <button class="button button__orange">
+                    Get Started
+                </button>
+            </div>
         </div>
-    </div>
+    </header>
+    <section class="container about">
+        <div>
+            <h1 class="about__title">
+                Grow your subscription business
+            </h1>
+            <p class="about__text">
+                Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
+            </p>
+            <div>
+                <button class="button button__violet">Get Started</button>
+                <button class="button button__transparent">Try</button>
+            </div>
+        </div>
+        <div>
+            <img src="./Img/firstmen.png" alt="firstmen">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer__flex">
+            <div>
+                <a href="#">
+                    <img src="./Img/Logo Color.png" alt="logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <ol>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Support
+                        </a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Premium
+                        </a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">
+                            Blog
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
